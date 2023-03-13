@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.md-input {
+    @apply w-full outline-none border-0 h-9 text-p1-font text-primary-font bg-transparent focus:ring-0 pl-2;
+  }
+  .md-label {
+    @apply absolute pointer-events-none text-p1-font block pl-2;
+    color: #7d8499;
+    border-color: #7d8499;
+    transform-origin: top left;
+    transform: translate(0, -34px) scale(1);
+    transition: color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms,
+      transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  }
+  .md-label-focus {
+    @apply text-secondary-font;
+    transform: translate(0, -32px) scale(0.75);
+    transform-origin: top left;
+  }
+  
+  .md-input:focus ~ .md-input-underline:after {
+    transform: scaleX(1);
+  }
+  .md-input:focus + .md-label,
+  .md-input:not(:placeholder-shown) + .md-label {
+    @apply md-label-focus text-secondary-font  text-p3-font border-l-2 border-r-2 pr-2 bg-white;
+  
+    transform: translate(0, -49px) scale(0.9);
+    transform-origin: top left;
+    font-size: 14px;
+    margin-left: 5px;
+    line-height: 12px;
+  }
+
+  table{
+    @apply w-full
+  }
+  thead{
+    @apply  bg-gray-200 text-left px-4 font-semibold 
+  }
+  tr{
+    @apply p-4
+  }
