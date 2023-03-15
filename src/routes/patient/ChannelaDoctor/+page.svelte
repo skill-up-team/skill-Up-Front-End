@@ -2,6 +2,7 @@
     import "../../../app.css";
     import Input from "../../../components/UI/Input.svelte";
     import Button from "../../../components/UI/Button.svelte";
+    import Autocomplete from "../../../components/UI/Autocomplete.svelte";
 </script>
 
 <div class="bg-white p-6 rounded-xl shadow-sm">
@@ -9,11 +10,13 @@
     <div class="mt-6 rounded-lg">
         <div class="grid grid-cols-12 gap-4 ">
             <div class="col-span-3">
-            <Input lableName="type"/>
-            </div>
-             <div class="col-span-3">
                 <Input lableName="type"/>
             </div>
+            <div class="col-span-3">
+                <Autocomplete lableName={"Doctor Name"}/>
+            <!-- <Input lableName="type"/> -->
+            </div>
+        
             <div class="col-span-3">
                 <Button title={"Search"} customClass={"bg-primary-color p-3 text-white"} ></Button>
             </div>

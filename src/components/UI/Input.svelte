@@ -1,5 +1,15 @@
 <script>
     export let lableName
+    export let value;
+    import { createEventDispatcher } from 'svelte';
+
+const dispatch = createEventDispatcher();
+function sayHello() {
+    dispatch('name', {
+        text: value
+    });
+}
+
 </script>
 
 <div>
@@ -7,9 +17,9 @@
         <div class="md-input-main">
             <div class="md-input-box">
                 <input
-              
-                   
-                type="text" class="md-input"  placeholder=" "/>
+                bind:value={value}
+                   on:input={sayHello}
+                type="text" class="md-input "  placeholder=" "/>
                 <label class="md-label" for="id"> {lableName} </label>
             </div>
         </div>

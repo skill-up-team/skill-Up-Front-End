@@ -7,10 +7,10 @@
 
 <div class="bg-white p-6 rounded-xl shadow-sm">
     <label for="" class="text-h2-font font-semibold"> Channel Doctor</label>
-    <div class="mt-6 rounded-lg">
+    <div class="mt-6 rounded-lg ">
         
         <!--  -->
-        <div class="mt-4">
+        <div class="mt-4 ">
             <div class="grid grid-cols-12 " >
                 <div class="col-span-2 border bg-gray-50 font-semibold text-p1-font text-left px-3 py-2"> Patient Name</div>
                 <div class="col-span-2 border bg-gray-50 font-semibold text-p1-font text-left px-3 py-2">Hospital Name</div>
