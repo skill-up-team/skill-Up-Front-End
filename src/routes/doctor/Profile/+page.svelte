@@ -11,14 +11,12 @@
                 <div class="col-span-2 border bg-gray-50 font-semibold text-p1-font text-left px-3 py-2">Time</div>
                 <div class="col-span-2 border bg-gray-50 font-semibold text-p1-font text-left px-3 py-2">Hospital Name</div>
                 <div class="col-span-2 border bg-gray-50 font-semibold text-p1-font text-left px-3 py-2">Fee</div>
-                <div class="col-span-2 border bg-gray-50 font-semibold text-p1-font text-left px-3 py-2"> Time</div>
                 <div class="col-span-2 border bg-gray-50 font-semibold text-p1-font text-left px-3 py-2">Available</div>
             </div>
             <div class="grid grid-cols-12 " >
                 <div class="col-span-2 border text-left p-3  text-p2-font">Time </div>
                 <div class="col-span-2 border text-left p-3  text-p2-font">Hospital Name</div>
                 <div class="col-span-2 border text-left p-3  text-p2-font">Fee</div>
-                <div class="col-span-2 border text-left p-3  text-p2-font">Available</div>
                 <div class="col-span-2 border text-left p-3  text-p2-font">                  
                     <div class="flex justify-center">
                         <div>
@@ -33,10 +31,10 @@
                 </div>
             </div>
             <div class="grid grid-cols-12 " >
-                <div class="col-span-2 border text-left p-3  text-p2-font">Doctor Name</div>
+                <div class="col-span-2 border text-left p-3  text-p2-font">Date& Time</div>
                 <div class="col-span-2 border text-left p-3  text-p2-font">Hospital Name</div>
                 <div class="col-span-2 border text-left p-3  text-p2-font">Fee</div>
-                <div class="col-span-2 border text-left p-3  text-p2-font">Date& Time</div>
+              
                 <div class="col-span-2 border text-left p-3  text-p2-font">  
                   
                     <div class="flex justify-center">

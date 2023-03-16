@@ -1,5 +1,7 @@
 
 <script>
+// @ts-nocheck
+
     import Input from "../../../components/UI/Input.svelte";
     import Button from "../../../components/UI/Button.svelte";
     import Autocomplete from "../../../components/UI/Autocomplete.svelte";
