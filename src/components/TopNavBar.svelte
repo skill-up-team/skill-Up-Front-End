@@ -1,8 +1,6 @@
-<nav class="bg-white rounded-lg p-6   sticky top-0 ">
+<nav class="bg-white border border-b-1  p-6   sticky top-0 ">
    <div class="grid grid-cols-12" >
-    <div class="col-span1 font-bold text-h2-font text-primary-color">
-      Skill<span class="text-black text-p1-font">UP</span>Project
-    </div>
+    
     <div class="col-span11"></div>
    </div>
   </nav>

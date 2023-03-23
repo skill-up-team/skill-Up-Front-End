@@ -17,8 +17,8 @@
             <!-- <Input lableName="type"/> -->
             </div>
         
-            <div class="col-span-3">
-                <Button title={"Search"} customClass={"bg-primary-color p-3 text-white"} ></Button>
+            <div class="col-span-1 place-self-center ">
+                <Button title={"Search"} customClass={"bg-primary-color p-2 text-white"} ></Button>
             </div>
         </div>
         <!--  -->
@@ -39,14 +39,7 @@
                 <div class="col-span-2 border text-left p-3  text-p2-font">Date& Time</div>
                 <div class="col-span-2 border text-left p-3  text-p2-font">  <Button title={"continue"} customClass={"bg-primary-color text-white p-2"} ></Button></div>
             </div>
-            <div class="grid grid-cols-12 " >
-                <div class="col-span-2 border text-left p-3  text-p2-font">Doctor Name</div>
-                <div class="col-span-2 border text-left p-3  text-p2-font">Hospital Name</div>
-                <div class="col-span-2 border text-left p-3  text-p2-font">Fee</div>
-                <div class="col-span-2 border text-left p-3  text-p2-font">Address</div>
-                <div class="col-span-2 border text-left p-3  text-p2-font">Date& Time</div>
-                <div class="col-span-2 border text-left p-3  text-p2-font">  <Button title={"continue"} customClass={"bg-primary-color text-white"} ></Button></div>
-            </div>
+      
         </div>
 
     </div>

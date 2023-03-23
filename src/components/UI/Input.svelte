@@ -9,7 +9,7 @@ function onInput(event) {
 </script>
 
 <div>
-    <div class="bg-white border rounded-xl px-2 pt-2 pb-1" >
+    <div class="bg-white w-full border  px-2 pt-2 pb-1" >
         <div class="md-input-main">
             <div class="md-input-box">
                 <input

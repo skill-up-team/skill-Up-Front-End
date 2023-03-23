@@ -10,5 +10,5 @@
 
 
 <div class="">
-    <button on:click={handleClick}  class={` rounded-xl  text-center border   font-semibold ${customClass} `}>{title} </button>
+    <button on:click={handleClick}  class={`  text-center border   font-semibold ${customClass} `}>{title} </button>
 </div>

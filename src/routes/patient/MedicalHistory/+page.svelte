@@ -10,10 +10,10 @@
     <div class="mt-6 rounded-lg">
         <div class="grid grid-cols-12 gap-4 ">
             <div class="col-span-3">
-                <Button title={"Doctor"} onButtonClick={() => type = 'doctor'} customClass={type == 'doctor'? "bg-primary-color text-white border-primary-color p-2" :"bg-white text-primary-color border-red-100 p-2"}  ></Button>
+                <Button title={"Doctor"} onButtonClick={() => type = 'doctor'} customClass={type == 'doctor'? "bg-primary-color text-white border-primary-color w-full p-2" :"bg-white text-primary-color border-red-100 p-2 w-full"}  ></Button>
             </div>
             <div class="col-span-3">
-                <Button title={"Lab"} onButtonClick={()=> type = "lab"} customClass={type == 'lab'? "bg-primary-color text-white border-primary-color p-2" :"bg-white text-primary-color border-primary-color p-2"} ></Button>
+                <Button title={"Lab"} onButtonClick={()=> type = "lab"} customClass={type == 'lab'? "bg-primary-color text-white border-primary-color p-2 w-full" :"bg-white text-primary-color border-primary-color p-2 w-full"} ></Button>
             </div>
         </div>
         <!--  -->
