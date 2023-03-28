@@ -1,21 +1,20 @@
 <script>
 
     import { onMount } from "svelte";
-    import { env } from '$env/dynamic/public'
     import Loader from "../../lib/UI/Loader.svelte";
     export let data
     let posts =[];
-
+const DEPLOYMENT_ENV = import.meta.env.VITE_PUBLIC_BASE_PATH;
     async function getData() {
         const res = await fetch('https://jsonplaceholder.typicode.com/posts')
         posts = await res.json();
         console.log(posts);
     }
     onMount(()=>{
-     ;
+     
     })
 </script>
-{env.TestName}
+{DEPLOYMENT_ENV}
 
 
 {data.name}

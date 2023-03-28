@@ -2,6 +2,17 @@
     import "../../../app.css";
     import Input from "../../../lib/UI/Input.svelte";
     import Button from "../../../lib/UI/Button.svelte";
+    import { PUBLIC_API_VERSION, PUBLIC_BASE_PATH } from '$env/static/public';
+    import { GET } from '../../../api/client';
+
+    async function getLabTestByName(Name) {
+        const report = await GET(PUBLIC_BASE_PATH+PUBLIC_API_VERSION  +`/search/lab?name=/${name}`);
+        return { report };
+    }
+    async function getLabTestByType(type) {
+        const report = await GET(PUBLIC_BASE_PATH+PUBLIC_API_VERSION  +`/search/lab?type=/${type}`);
+        return { report };
+    }
 </script>
 
 <div class="bg-white p-6 rounded-xl shadow-sm">

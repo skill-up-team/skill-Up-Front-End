@@ -3,7 +3,21 @@
     import Input from "../../../lib/UI/Input.svelte";
     import Button from "../../../lib/UI/Button.svelte";
     import Autocomplete from "../../../lib/UI/Autocomplete.svelte";
+    import { PUBLIC_API_VERSION, PUBLIC_BASE_PATH } from '$env/static/public';
+    import { GET,POST } from '../../../api/client';
 
+    async function getDoctorByName(Name) {
+        const report = await GET(PUBLIC_BASE_PATH+PUBLIC_API_VERSION  +`/search/doctor?name=/${name}`);
+        return { report };
+    }
+    async function getDoctorBySpecialization (Specialization) {
+        const report = await GET(PUBLIC_BASE_PATH+PUBLIC_API_VERSION  +`/search/doctor?Specialization=/${Specialization}`);
+        return { report };
+    }
+    async function doctorAppointment (Name) {
+        const report = await POST(PUBLIC_BASE_PATH+PUBLIC_API_VERSION  +'/appointment/doctor');
+        return { report };
+    }
     // 
     
 </script>
