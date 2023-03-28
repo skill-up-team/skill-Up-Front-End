@@ -2,9 +2,9 @@
 <script>
 // @ts-nocheck
 
-    import Input from "../../../components/UI/Input.svelte";
-    import Button from "../../../components/UI/Button.svelte";
-    import Autocomplete from "../../../components/UI/Autocomplete.svelte";
+    import Input from "../../../lib/UI/Input.svelte";
+    import Button from "../../../lib/UI/Button.svelte";
+    import Autocomplete from "../../../lib/UI/Autocomplete.svelte";
 </script>
 <div class="bg-white p-6 gap-2 rounded-xl shadow-sm grid grid-cols-12">
     <div class="col-span-12 mb-6">

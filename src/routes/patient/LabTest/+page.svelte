@@ -1,7 +1,7 @@
 <script>
     import "../../../app.css";
-    import Input from "../../../components/UI/Input.svelte";
-    import Button from "../../../components/UI/Button.svelte";
+    import Input from "../../../lib/UI/Input.svelte";
+    import Button from "../../../lib/UI/Button.svelte";
 </script>
 
 <div class="bg-white p-6 rounded-xl shadow-sm">

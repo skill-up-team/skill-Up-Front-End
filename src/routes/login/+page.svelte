@@ -1,8 +1,8 @@
 <script>
-    import Input from "../../components/UI/Input.svelte";
-    import TopBar from "../../components/TopNavBar.svelte";
+    import Input from "../../lib/UI/Input.svelte";
+    import TopBar from "$lib/TopNavBar.svelte";
     import Footer from "../../components/Footer.svelte";
-    import Button from "../../components/UI/Button.svelte";
+    import Button from "../../lib/UI/Button.svelte";
     import  "../../app.css";
 </script>
 <div class="">

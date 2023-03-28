@@ -2,7 +2,8 @@
 
     import { onMount } from "svelte";
     import { env } from '$env/dynamic/public'
-    import Loader from "../../components/UI/Loader.svelte";
+    import Loader from "../../lib/UI/Loader.svelte";
+    export let data
     let posts =[];
 
     async function getData() {
@@ -11,15 +12,19 @@
         console.log(posts);
     }
     onMount(()=>{
-         getData();
+     ;
     })
 </script>
-{env.PUBLIC_API_KEY}
-{#each posts as post,i  }
+{env.TestName}
+
+
+{data.name}
+{data.age}
+<!-- {#each posts as post,i  }
     <h3>{post.id} {post.title}</h3>
     <p>{post.body}</p>
     {:else}
     <p>
        <Loader/>
     </p>
-{/each}
+{/each} -->

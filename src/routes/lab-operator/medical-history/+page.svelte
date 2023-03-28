@@ -1,6 +1,6 @@
 <script>
     import "../../../app.css";
-    import Button from "../../../components/UI/Button.svelte";
+    import Button from "../../../lib/UI/Button.svelte";
 
     let query = '';
 

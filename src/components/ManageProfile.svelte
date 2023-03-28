@@ -1,8 +1,8 @@
 
 <script>
-    import Button from "./UI/Button.svelte";
-    import Input from "./UI/Input.svelte";
-    import Select from "./UI/Select.svelte";
+    import Button from "../lib/UI/Button.svelte";
+    import Input from "../lib/UI/Input.svelte";
+    import Select from "../lib/UI/Select.svelte";
     
 </script>
 <div class="bg-white p-6 rounded-xl shadow-sm m-auto ">

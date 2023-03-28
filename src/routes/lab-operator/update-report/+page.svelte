@@ -1,8 +1,8 @@
 <script>
     import "../../../app.css";
-    import Input from "../../../components/UI/Input.svelte";
-    import Autocomplete from "../../../components/UI/Autocomplete.svelte";
-    import Button from "../../../components/UI/Button.svelte";
+    import Input from "../../../lib/UI/Input.svelte";
+    import Autocomplete from "../../../lib/UI/Autocomplete.svelte";
+    import Button from "../../../lib/UI/Button.svelte";
     import { onMount } from "svelte";
     import { page } from "$app/stores";
     let query = "";
