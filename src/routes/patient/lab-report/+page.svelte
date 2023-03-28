@@ -1,7 +1,16 @@
 
 <script>
     import "../../../app.css";
+    import { PUBLIC_API_VERSION, PUBLIC_MEDICAL_REPORT_MANAGEMENT_SERVICE } from '$env/static/public';
+    import { GET } from '../../../api/client';
+
+    async function getLabReportById(id) {
+        const report = await GET(PUBLIC_API_VERSION + PUBLIC_MEDICAL_REPORT_MANAGEMENT_SERVICE +`/labReport/${id}`);
+        return { report };
+    }
+
 </script>
+
 <div class="">
     <div class="bg-white p-6 rounded-xl shadow-sm w-full">
         <div class="">

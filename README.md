@@ -35,4 +35,12 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
+## .env files not synced with intellisense
+
+```bash
+npm run check
+```
+
+This will run `svelte-kit sync` and the the newly added attributes to the .env will be synced and there won't be any errors.
+
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
